@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;"
+            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.authenticationframes.AdminAddCourseController">
+   <children>
+      <Pane layoutX="69.0" layoutY="69.0" prefHeight="547.0" prefWidth="1182.0">
+         <children>
+            <Text fill="WHITE" layoutX="2.0" layoutY="72.0" text="Course Name">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="courseNameField" layoutX="162.0" layoutY="43.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="619.0" layoutY="72.0" text="Course Code">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="courseCodeField" layoutX="751.0" layoutY="43.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="141.0" text="Section">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="locationField" layoutX="161.0" layoutY="111.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="619.0" layoutY="141.0" text="Subject">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="TimeField" layoutX="751.0" layoutY="109.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="212.0" text="Professor">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="capacityField" layoutX="162.0" layoutY="180.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="276.0" text="Lecture Time">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="sectionField" layoutX="163.0" layoutY="248.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="618.0" layoutY="213.0" text="Capacity">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="examField" layoutX="750.0" layoutY="180.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="618.0" layoutY="276.0" text="Room">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="teacherField" layoutX="750.0" layoutY="248.0" prefHeight="40.0" prefWidth="387.0"/>
+
+            <Text fill="WHITE" layoutX="1.0" layoutY="341.0" text="Final Exam">
+               <font><Font size="22.0"/></font>
+            </Text>
+         </children>
+      </Pane>
+
+      <Button fx:id="addCourseButton" layoutX="522.0" layoutY="464.0" text="Add Course"/>
+      <Button fx:id="cancelButton" layoutX="522.0" layoutY="557.0" text="Cancel"/>
+   </children>
+</AnchorPane>

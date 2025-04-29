@@ -1,0 +1,3 @@
+FAC1743138121198, Nikita, Thorn, nupadh01@uoguelph.ca, Engineering Systems, Engineering
+FAC1743138183473,	Cherith,	Thorn,	cboya@uoguelph.ca	Engineering	Computer, Engineering
+FAC1743185179909,	Suhas,	Thorn, Engineering	Comp, Engineering

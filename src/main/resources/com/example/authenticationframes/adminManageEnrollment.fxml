@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.StudentFrame6">
+   <children>
+      <Text fill="WHITE" layoutX="294.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Enrollments" textAlignment="CENTER" wrappingWidth="683.13671875">
+         <font>
+            <Font size="47.0" />
+         </font></Text>
+      <Pane layoutX="141.0" layoutY="173.0" prefHeight="393.0" prefWidth="229.0" style="-fx-background-color: #324D6F;" />
+      <Pane layoutX="397.0" layoutY="173.0" prefHeight="393.0" prefWidth="229.0" style="-fx-background-color: #324D6F;" />
+      <Pane layoutX="650.0" layoutY="173.0" prefHeight="393.0" prefWidth="509.0" style="-fx-background-color: #324D6F;" />
+      <Text fill="WHITE" layoutX="397.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registered Courses" textAlignment="CENTER" wrappingWidth="229.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="790.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Semester" textAlignment="CENTER" wrappingWidth="229.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="141.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Courses" textAlignment="CENTER" wrappingWidth="229.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

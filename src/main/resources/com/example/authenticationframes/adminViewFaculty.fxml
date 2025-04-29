@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.AdminViewFacultyController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" layoutY="-7.0" opacity="0.62" pickOnBounds="true" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0">
+         <image>
+            <Image url="@background.images/img_1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="46.0" prefWidth="1272.0" style="-fx-background-color: #373737;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button layoutX="2.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../CourseFrames/src/main/resources/com/example/courseframes/navigationBar.images/img_12.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="backButton" layoutX="33.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../navigationBar.images/img_10.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="45.33333333333337" prefHeight="577.0" prefWidth="44.0" style="-fx-background-color: #373737;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="44.0">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutY="6.0" prefHeight="304.0" prefWidth="44.0" spacing="15.0" AnchorPane.topAnchor="6.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@navigationBar.images/img.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="29.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@navigationBar.images/img_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@navigationBar.images/img_2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@navigationBar.images/img_3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="46.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@navigationBar.images/img_4.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@navigationBar.images/img_5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="69.0" layoutY="68.0" prefHeight="549.0" prefWidth="1178.0">
+         <children>
+            <Pane layoutX="-47.0" layoutY="99.0" prefHeight="448.0" prefWidth="447.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #193355; -fx-blend-mode: screen;" AnchorPane.leftAnchor="0.0">
+               <children>
+                  <ScrollPane layoutX="40.0" layoutY="58.0" prefHeight="312.0" prefWidth="378.0" style="-fx-background-color: transparent;">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="606.0" prefWidth="362.0" style="-fx-background-color: #193355;">
+                           <children>
+                              <Pane prefHeight="44.0" prefWidth="353.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #373737; -fx-blend-mode: screen;">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="20.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENGG*1420" wrappingWidth="135.4700546264649">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Text>
+                                    <Button layoutX="249.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: transparent; -fx-font-family: dubai; -fx-font-size: 18;" text="Unenroll" textFill="WHITE" underline="true" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <Text fill="WHITE" layoutX="133.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Courses Offered" wrappingWidth="188.26920890808105">
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                     <effect>
+                        <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+                     </effect>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="27.0" layoutY="24.0" prefHeight="84.0" prefWidth="1178.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #373737; -fx-blend-mode: screen;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Text fx:id="nameText" fill="WHITE" layoutX="92.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Hiscott" wrappingWidth="397.69226837158203">
+                     <font>
+                        <Font name="Dubai Light" size="44.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="56.0" fitWidth="60.0" layoutX="22.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@navigationBar.images/img_4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="474.0" layoutY="99.0" prefHeight="448.0" prefWidth="712.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #373737; -fx-blend-mode: screen;" AnchorPane.rightAnchor="-8.0">
+               <children>
+                  <Text fill="WHITE" layoutX="256.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Information" wrappingWidth="231.8248119354248">
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                     <effect>
+                        <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+                     </effect>
+                  </Text>
+                  <AnchorPane layoutX="40.0" layoutY="27.0" minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="643.0" style="-fx-background-color: #373737;">
+                     <children>
+                        <VBox layoutX="-17.0" layoutY="-33.0" prefHeight="335.0" prefWidth="175.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Degree" wrappingWidth="154.8034286499024">
+                                 <font>
+                                    <Font name="System Bold Italic" size="24.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Research Interests" wrappingWidth="205.8034286499024">
+                                 <font>
+                                    <Font name="System Bold Italic" size="24.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Office" wrappingWidth="156.8034286499024">
+                                 <font>
+                                    <Font name="System Bold Italic" size="24.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone" wrappingWidth="155.4700546264649">
+                                 <font>
+                                    <Font name="System Bold Italic" size="24.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address" wrappingWidth="198.1366806030274">
+                                 <font>
+                                    <Font name="System Bold Italic" size="24.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <!-- Inside VBox layoutX="224.0" ... this is where you display actual profile values -->
+                        <VBox layoutX="224.0" prefHeight="225.0" prefWidth="417.0" spacing="16.0">
+                           <children>
+                              <Text fx:id="degreeText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PhD Computer Engineering" wrappingWidth="413.47011566162115">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="researchText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Algorithims" wrappingWidth="158.8034286499024">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="officeText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="THRN XXXX" wrappingWidth="414.13674163818365">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="phoneText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="(123) 456-7890" wrappingWidth="415.4700546264649">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="emailText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ahiscott@uoguelph.ca" wrappingWidth="416.13674163818365">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <Pane layoutY="350.0" prefHeight="44.0" prefWidth="208.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #373737; -fx-blend-mode: screen;">
+                           <children>
+                              <Button layoutX="35.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="126.0" style="-fx-background-color: transparent; -fx-font-family: dubai; -fx-font-size: 20;" text="Edit Faculty" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

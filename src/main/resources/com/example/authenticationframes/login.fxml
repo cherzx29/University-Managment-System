@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.LoginController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" opacity="0.6" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../background.images/img_1.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="93.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back!" wrappingWidth="514.8719272613525">
+         <font>
+            <Font name="Dubai Medium" size="80.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="99.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trouble signing in?" wrappingWidth="414.42749977111816">
+         <font>
+            <Font name="Dubai Light" size="30.0" />
+         </font>
+      </Text>
+      <Button alignment="TOP_LEFT" layoutX="91.0" layoutY="347.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="341.0" style="-fx-background-color: transparent; -fx-font-family: Dubai; -fx-font-size: 18;" text="Click here to contact the CCS IT Help Centre" textFill="WHITE" textOverrun="CLIP" underline="true" wrapText="true"/>
+      <AnchorPane layoutX="691.0" layoutY="72.0" opacity="0.87" prefHeight="507.0" prefWidth="479.0" style="-fx-background-color: #193355; -fx-blend-mode: screen;">
+         <children>
+            <TextField fx:id="emailField" layoutX="73.0" layoutY="164.0" prefHeight="44.0" prefWidth="334.0" promptText="Username/Email" style="-fx-font-size: 18; -fx-font-family: dubai; -fx-background-color: transparent; -fx-text-fill: white;">
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </TextField>
+            <PasswordField fx:id="passwordField" layoutX="73.0" layoutY="273.0" prefHeight="44.0" prefWidth="334.0" promptText="Password" style="-fx-font-size: 18; -fx-font-family: dubai; -fx-background-color: transparent; -fx-text-fill: white;">
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </PasswordField>
+            <Button fx:id="loginButton" layoutX="73.0" layoutY="414.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="334.0" style="-fx-font-size: 18; -fx-background-color: #324D6F; -fx-font-family: Dubai;" text="Sign In" textFill="WHITE" onAction="#handleLogin">
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </Button>
+            <Button alignment="BOTTOM_RIGHT" layoutX="302.0" layoutY="317.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: transparent; -fx-font-family: Dubai;" text="Forgot Password?" textAlignment="RIGHT" textFill="WHITE" underline="true"/>
+            <Text fill="WHITE" layoutX="141.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In" textAlignment="CENTER" wrappingWidth="197.60023498535156">
+               <font>
+                  <Font name="Dubai Regular" size="34.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

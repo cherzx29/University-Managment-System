@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.StudentFrame8">
+   <children>
+      <Pane layoutX="270.0" layoutY="155.0" prefHeight="365.0" prefWidth="733.0" style="-fx-background-color: #324D6F;">
+         <children>
+            <Text fill="WHITE" layoutX="84.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fees" textAlignment="CENTER" wrappingWidth="47.13671875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="572.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" textAlignment="CENTER" wrappingWidth="85.13671875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <Text fill="WHITE" layoutX="475.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuition Management">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

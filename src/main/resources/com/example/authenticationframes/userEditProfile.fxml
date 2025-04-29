@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.UserEditProfileController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" opacity="0.6" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../background.images/img_1.png" />
+         </image>
+      </ImageView>
+
+      <!-- Left Pane - Profile Picture -->
+      <AnchorPane layoutX="82.0" layoutY="66.0" opacity="0.87" prefHeight="507.0" prefWidth="436.0" style="-fx-background-color: #193355; -fx-blend-mode: screen;">
+         <children>
+            <Button fx:id="changeProfilePicture" layoutX="45.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleChangeProfilePicture" prefHeight="53.0" prefWidth="347.0" style="-fx-font-size: 18; -fx-background-color: #324D6F; -fx-font-family: Dubai;" text="Change Profile Picture" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </Button>
+            <Text fill="WHITE" layoutX="41.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile Picture" textAlignment="CENTER" wrappingWidth="354.26686096191406">
+               <font>
+                  <Font name="Dubai Regular" size="35.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="profileImageView" fitHeight="198.0" fitWidth="243.0" layoutX="109.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../navigationBar.images/img_4.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+
+      <!-- Right Pane - Password Change -->
+      <AnchorPane layoutX="565.0" layoutY="66.0" opacity="0.87" prefHeight="507.0" prefWidth="628.0" style="-fx-background-color: #193355; -fx-blend-mode: screen;">
+         <children>
+            <TextField fx:id="currentPasswordField" layoutX="139.0" layoutY="156.0" prefHeight="44.0" prefWidth="347.0" promptText="Current Password" style="-fx-font-size: 18; -fx-font-family: dubai; -fx-background-color: transparent; -fx-text-fill: white; -fx-border-color: black;">
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="saveChangesButton" layoutX="140.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleSaveChanges" prefHeight="53.0" prefWidth="347.0" style="-fx-font-size: 18; -fx-background-color: #324D6F; -fx-font-family: Dubai;" text="Save Changes" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </Button>
+            <Text fill="WHITE" layoutX="137.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Password" textAlignment="CENTER" wrappingWidth="354.26686096191406">
+               <font>
+                  <Font name="Dubai Regular" size="35.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="newPasswordField" layoutX="139.0" layoutY="220.0" prefHeight="44.0" prefWidth="347.0" promptText="New Password" style="-fx-font-size: 18; -fx-font-family: dubai; -fx-background-color: transparent; -fx-text-fill: white; -fx-border-color: black;">
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="cancelButton" layoutX="125.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="39.0" prefWidth="139.0" style="-fx-font-size: 15; -fx-background-color: Transparent; -fx-font-family: Dubai;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

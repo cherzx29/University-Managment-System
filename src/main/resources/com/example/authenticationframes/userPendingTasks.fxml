@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.LoginController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" opacity="0.6" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@background.images/img_1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="65.0" layoutY="66.0" opacity="0.87" prefHeight="507.0" prefWidth="1138.0" style="-fx-background-color: #193355; -fx-blend-mode: screen;">
+         <children>
+            <Text fill="WHITE" layoutX="389.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pending Tasks" textAlignment="CENTER" wrappingWidth="354.26686096191406">
+               <font>
+                  <Font name="Dubai Regular" size="35.0" />
+               </font>
+            </Text>
+            <VBox layoutX="21.0" layoutY="111.0" prefHeight="375.0" prefWidth="1093.0" spacing="10.0">
+               <children>
+                  <Pane prefHeight="44.0" prefWidth="1079.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #373737; -fx-blend-mode: screen;">
+                     <children>
+                        <CheckBox layoutX="23.0" layoutY="9.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="463.0" text="Complete selecting Summer 2025 courses" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="44.0" prefWidth="1079.0" style="-fx-border-radius: 50px; -fx-border-image-width: 2px 2px 2px 2px; -fx-background-radius: 50px; -fx-border-style: solid; -fx-background-color: #373737; -fx-blend-mode: screen;">
+                     <children>
+                        <CheckBox layoutX="23.0" layoutY="9.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="463.0" text="Change profile photo" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

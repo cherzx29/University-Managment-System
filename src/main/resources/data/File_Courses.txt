@@ -1,0 +1,12 @@
+Hamza	Hamza	Hamza	Hamza	Hamza	Hamza	Hamza	Hamza	Hamza
+Khan	Khan	Khan	Khan	Khan	Khan	Khan	Khan	Khan
+King	King	King	King	King	King	King	King	King
+BC	9898	W25	87879	9898	34	2	65
+NP	87	NP	PK	NP	333	30	34
+Khan	k	k	k	k	k	k	k
+SC	657687	1	uhuhuh	uhu	56	8787	8787
+Mechanics 1 709 6   EnGINEERING Jane Doe    800 300 23
+Cherith	87	30	Engineering	Prof B	400	300	30
+Euclidean T	123	123	123	123	123	123	123
+Lin Alggggg	MATH1250	32	Lin Alg	111	300	300	23
+Calc	MATH2020	300	Math	Jane Doe	3:40	300	23

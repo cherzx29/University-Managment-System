@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.UserEventDetailsController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" opacity="0.6" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../Downloads/SubjectFrames/src/main/resources/com/example/subjectframes/background.images/img_1.png" />
+         </image>
+      </ImageView>
+
+      <AnchorPane layoutX="78.0" layoutY="66.0" opacity="0.87" prefHeight="507.0" prefWidth="1117.0" style="-fx-background-color: #193355; -fx-blend-mode: screen;">
+         <children>
+            <Text fx:id="eventNameText" fill="WHITE" layoutX="625.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="452.26686096191406">
+               <font>
+                  <Font name="Dubai Regular" size="40.0" />
+               </font>
+            </Text>
+
+            <ImageView fitHeight="50.0" fitWidth="56.0" layoutX="625.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Downloads/calendar.png" />
+               </image>
+            </ImageView>
+
+            <Text fill="#f9fbff" layoutX="600.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date and Time:" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+
+            <Text fx:id="dateTimeText" fill="WHITE" layoutX="600.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+
+            <ImageView fitHeight="62.0" fitWidth="50.0" layoutX="625.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Downloads/location.png" />
+               </image>
+            </ImageView>
+
+            <Text fill="#f9fbff" layoutX="572.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location:" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+
+            <Text fx:id="locationText" fill="WHITE" layoutX="572.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+
+            <ImageView fitHeight="64.0" fitWidth="50.0" layoutX="625.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Downloads/capacity%20symbol.png" />
+               </image>
+            </ImageView>
+
+            <Text fill="#f9fbff" layoutX="572.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capacity:" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+
+            <Text fx:id="capacityText" fill="WHITE" layoutX="572.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+
+            <Text fill="#f9fbff" layoutX="35.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="625.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Downloads/Cost%232.png" />
+               </image>
+            </ImageView>
+
+            <Text fill="#f9fbff" layoutX="559.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cost:" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+
+            <Text fx:id="costText" fill="WHITE" layoutX="559.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+
+            <ImageView fitHeight="198.0" fitWidth="558.0" layoutX="35.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Downloads/Gryphon%20wing.png" />
+               </image>
+            </ImageView>
+
+            <Text fx:id="descriptionText" fill="WHITE" layoutX="70.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="487.21630859375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+
+            <Button fx:id="backButton" layoutX="35.0" layoutY="435.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #373737; -fx-font-size: 16;" text="Back" textFill="WHITE" />
+
+            <Button layoutX="36.0" layoutY="382.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="288.0" text="Register">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

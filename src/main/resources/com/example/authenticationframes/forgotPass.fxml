@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.LoginController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" opacity="0.6" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../background.images/img_1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="396.0" layoutY="66.0" opacity="0.87" prefHeight="507.0" prefWidth="479.0" style="-fx-background-color: #193355; -fx-blend-mode: screen;">
+         <children>
+            <TextField layoutX="66.0" layoutY="229.0" prefHeight="44.0" prefWidth="347.0" promptText="Email" style="-fx-font-size: 18; -fx-font-family: dubai; -fx-background-color: transparent; -fx-font: white; -fx-text-fill: white; -fx-border-color: black;">
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="66.0" layoutY="340.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="347.0" style="-fx-font-size: 18; -fx-background-color: #324D6F; -fx-font-family: Dubai;" text="Reset Password" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+               </effect>
+            </Button>
+            <Text fill="WHITE" layoutX="62.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Your Password" textAlignment="CENTER" wrappingWidth="354.26686096191406">
+               <font>
+                  <Font name="Dubai Regular" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="66.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter email associated with account to reset password" wrappingWidth="334.0">
+               <font>
+                  <Font name="Dubai Light" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

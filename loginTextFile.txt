@@ -1,0 +1,10 @@
+Hamza Khan, 123456789876, 123 Hello, 234567, hkhan@student.ca, Undergraduate, BENG - Computer Engineering, F25, aPXze
+Nikita Upa, 1234567, 123 ATL, 98765678987, nupa@student.ca, Undergraduate, BENG - Sys and Eng, F25, aaa
+Julian Kew, 12345654, 123 Bramp, 45676567876, jkew@student.ca, Undergraduate, BSCI - Chemistry, W25, bbb
+Cherith Boya, 1234567, 123 New York, 6789098765, cboya@student.ca, Graduate, BENG - Computer Engineering, F25, aaa
+Mark Touzo, 123456587, 123 Jersey, 6478657869, mtouzo@admin.ca, Graduate, BENG - Comp Eng, W25, aaa
+John Smith, 123456789, 123 Queens, 6477483987, jsmith@faculty.ca, Graduate, BENG - Mech Eng, W25, 123
+Jane Doe, 123456787654, 1234 Kings, 6479871234, jdoe@faculty.ca, Graduate, BENG - Mech Eng, W25, kkk
+46359136	SpongeBob Squarepants	123123123	ssquare@faculty.ca	123 Bikini Bottom	Pineapple	1231231234	Calculus 1	Pure Maths	rC7Vs
+SpongeBob S, 46359136, Pineapple, 1231231234, ssquare@faculty.ca, Graduate, 123 Bikini Bottom, W25, 7jofl
+FAC1743706007186	will smith	iuiuh	iuhiuh@faculty.ca	iug	iuhiuh

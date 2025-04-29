@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authenticationframes.AdminEditEventController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" layoutY="-7.0" opacity="0.6" pickOnBounds="true" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0">
+         <image>
+            <Image url="@../../../background.images/img_1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="46.0" prefWidth="1272.0" style="-fx-background-color: #373737;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                           <children>
+                              <Button layoutX="2.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <ImageView fitHeight="35.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../navigationBar.images/img.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="33.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <ImageView fitHeight="26.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutY="45.33333333333337" prefHeight="577.0" prefWidth="44.0" style="-fx-background-color: #373737;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="44.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" layoutY="6.0" prefHeight="304.0" prefWidth="44.0" spacing="15.0" AnchorPane.topAnchor="6.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../navigationBar.images/img_1.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="29.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../navigationBar.images/img_2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="32.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../navigationBar.images/img_3.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true">
+                                             <image>
+                                                <Image url="@../../../navigationBar.images/img_4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="46.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../navigationBar.images/img_5.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../navigationBar.images/img_7.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+      <Pane layoutX="69.0" layoutY="69.0" prefHeight="547.0" prefWidth="1182.0">
+         <children>
+            <Text fill="WHITE" layoutX="2.0" layoutY="72.0" text="Event Name" />
+            <Pane layoutX="162.0" layoutY="43.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="eventNameField" layoutX="12.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+
+            <Text fill="WHITE" layoutX="619.0" layoutY="72.0" text="Event Code" />
+            <Pane layoutX="751.0" layoutY="43.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="eventCodeField" layoutX="11.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+
+            <Text fill="WHITE" layoutY="141.0" text="Location" />
+            <Pane layoutX="161.0" layoutY="111.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="locationField" layoutX="11.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+
+            <Text fill="WHITE" layoutX="619.0" layoutY="141.0" text="Date/Time" />
+            <Pane layoutX="751.0" layoutY="109.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="dateTimeField" layoutX="11.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="212.0" text="Capacity" />
+            <Pane layoutX="162.0" layoutY="180.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="capacityField" layoutX="11.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+
+            <Text fill="WHITE" layoutX="618.0" layoutY="213.0" text="Cost" />
+            <Pane layoutX="750.0" layoutY="180.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="costField" layoutX="11.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="276.0" text="Description" />
+            <TextField fx:id="descriptionField" layoutX="162.0" layoutY="254.0" prefHeight="46.0" prefWidth="421.0" style="-fx-background-color: #373737; -fx-text-fill: white;" />
+
+            <Text fill="WHITE" layoutX="618.0" layoutY="276.0" text="Enrollment" />
+            <Pane layoutX="750.0" layoutY="248.0" prefHeight="45.0" prefWidth="421.0" style="-fx-background-color: #373737;">
+               <children>
+                  <TextField fx:id="enrollmentField" layoutX="11.0" layoutY="3.0" prefHeight="40.0" prefWidth="387.0" style="-fx-font-size: 16; -fx-background-color: transparent; -fx-text-fill: white;" />
+               </children>
+            </Pane>
+         </children>
+            </Pane>
+            <TextField layoutX="162.0" layoutY="254.0" prefHeight="46.0" prefWidth="421.0" style="-fx-background-color: #373737; -fx-blend-mode: screen; -fx-text-fill: white;" />
+         </children>
+
+      <Button fx:id="cancelEditButton" layoutX="526.0" layoutY="545.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="343.0" style="-fx-background-color: #193355; -fx-font-size: 14;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Dubai Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+         </effect>
+      </Button>
+      <Button fx:id="saveChangesButton" layoutX="526.0" layoutY="456.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="343.0" style="-fx-background-color: #193355; -fx-font-size: 20;" text="Save Changes" textFill="WHITE">
+         <font>
+            <Font name="Dubai Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+         </effect>
+      </Button>
+      <Button fx:id="deleteEventButton" layoutX="526.0" layoutY="586.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="343.0" style="-fx-background-color: #193355; -fx-font-size: 14;" text="Delete Event" textFill="WHITE">
+         <font>
+            <Font name="Dubai Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0" />
+         </effect>
+      </Button>
+   </AnchorPane>
+
